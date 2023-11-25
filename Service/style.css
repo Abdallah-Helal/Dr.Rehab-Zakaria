@@ -1,0 +1,114 @@
+body {
+  /* background-color: black; */
+}
+.section1 {
+  margin-top: 2rem;
+  background-color: #5b2c6f;
+}
+.section1 img {
+  width: 100%;
+}
+.section1 div {
+  background: black;
+  height: 1rem;
+  margin-top: -5px;
+}
+.section1 h2 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section1 ul {
+  text-align: center;
+  list-style-type: none;
+  padding-bottom: 5rem;
+  width: max-content;
+  margin: auto;
+  margin-bottom: 1rem;
+  font-weight: normal;
+}
+
+.section1 li {
+  margin-bottom: 10px;
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #fff;
+}
+.service {
+  background-color: #5dade2;
+  margin-bottom: 1rem;
+  color: #fff;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+}
+.service h2 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+.service p {
+  font-size: 2.2rem;
+  width: 40%;
+}
+
+.section2 {
+  margin-bottom: -15rem;
+}
+
+.fourth ~ hr {
+  height: 5rem;
+  width: 19%;
+  margin: -6.5rem 0;
+  background: linear-gradient(to right, gold, DarkSlateGray);
+  border: none;
+  border-radius: 5rem;
+  transition: 0.5s ease-in-out;
+  margin-left: 39%;
+}
+
+.fourth:hover ~ hr {
+  margin-left: 58%;
+}
+
+.third:hover ~ hr {
+  margin-left: 39%;
+}
+
+.second:hover ~ hr {
+  margin-left: 19%;
+}
+
+.first:hover ~ hr {
+  margin-left: 0%;
+}
+@media (max-width: 1250px) {
+  .section2 {
+    margin-bottom: -5rem;
+  }
+  .service p {
+    width: 60%;
+  }
+}
+
+@media (max-width: 925px) {
+  .section1 h2 {
+    font-size: 3rem;
+  }
+  .section1 ul {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .section1 li {
+    margin-bottom: 5px;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+  }
+  .service p {
+    width: 80%;
+  }
+  .section2 {
+    margin-bottom: -6rem;
+  }
+}
