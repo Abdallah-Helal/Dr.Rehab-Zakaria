@@ -384,7 +384,7 @@ hr {
   color: var(--color-textdark);
 }
 
-.wrapper .icon span {
+.wrapper .icon a {
   position: relative;
   height: 50px;
   width: 50px;
@@ -395,11 +395,11 @@ hr {
   text-align: center;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
-.wrapper .icon:hover span i {
+.wrapper .icon:hover a i {
   color: #fff;
 }
 
-.wrapper .icon span i {
+.wrapper .icon a i {
   font-size: 25px;
   line-height: 33px;
 }
@@ -433,32 +433,32 @@ hr {
   transform: translateX(-50%) rotate(45deg);
 }
 
-.wrapper .icon:hover span,
+.wrapper .icon:hover a,
 .wrapper .icon:hover .tooltip {
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
 }
 
-.wrapper .facebook:hover span,
-.wrapper .facebook:hover .tooltip,
-.wrapper .facebook:hover .tooltip::before {
+.wrapper .face:hover a,
+.wrapper .face:hover .tooltip,
+.wrapper .face:hover .tooltip::before {
   background: #3b5999;
 }
 
-.wrapper .twitter:hover span,
+.wrapper .twitter:hover a,
 .wrapper .twitter:hover .tooltip,
 .wrapper .twitter:hover .tooltip::before {
   background: #46c1f6;
 }
 
-.wrapper .youtube:hover span,
+.wrapper .youtube:hover a,
 .wrapper .youtube:hover .tooltip,
 .wrapper .youtube:hover .tooltip::before {
   background: #de463b;
 }
 
-.wrapper .instagram:hover span,
-.wrapper .instagram:hover .tooltip,
-.wrapper .instagram:hover .tooltip::before {
+.wrapper .insta:hover a,
+.wrapper .insta:hover .tooltip,
+.wrapper .insta:hover .tooltip::before {
   background: #e1306c;
 }
 
@@ -702,7 +702,7 @@ hr {
     margin-top: 6rem;
   }
 
-  .wrapper .icon span {
+  .wrapper .icon a {
     height: 43px;
     width: 43px;
   }
@@ -711,7 +711,7 @@ hr {
     font-size: 13px;
   }
 
-  .wrapper .icon span i {
+  .wrapper .icon a i {
     font-size: 23px;
     line-height: 25px;
   }
@@ -808,12 +808,12 @@ hr {
     font-size: 10px;
   }
 
-  .wrapper .icon span {
+  .wrapper .icon a {
     height: 39px;
     width: 39px;
   }
 
-  .wrapper .icon span i {
+  .wrapper .icon a i {
     font-size: 22px;
     line-height: 22px;
   }
