@@ -108,6 +108,9 @@ body {
   .service p {
     width: 80%;
   }
+  .service p {
+    font-size: 1.7rem;
+  }
   .section2 {
     margin-bottom: -6rem;
   }
