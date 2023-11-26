@@ -606,8 +606,11 @@ hr {
   transition: all 0.2s ease-out;
 }
 
-.contact a .th {
+.contact a:nth-child(1) i {
   top: 40%;
+}
+.contact a:nth-child(3) i {
+  top: 50%;
 }
 /* ----------Responsive---------- */
 @media (max-width: 1480px) {
@@ -774,6 +777,13 @@ hr {
     font-size: 2.5rem;
     right: 0.1rem;
   }
+  .contact a {
+    width: 65px;
+    height: 65px;
+  }
+  .contact a i {
+    font-size: 30px;
+  }
 }
 
 /* ------- */
@@ -879,6 +889,13 @@ hr {
   .footer__upflash {
     font-size: 1.6rem;
     right: 0.1rem;
+  }
+  .contact a {
+    width: 60px;
+    height: 60px;
+  }
+  .contact a i {
+    font-size: 25px;
   }
 }
 
@@ -1073,6 +1090,19 @@ hr {
 
   .logo__img {
     width: 22rem;
+  }
+  .contact a {
+    width: 50px;
+    height: 50px;
+  }
+  .contact a i {
+    font-size: 20px;
+  }
+  .contact a:nth-child(1) i {
+    top: 35%;
+  }
+  .contact a:nth-child(2) i {
+    top: 35%;
   }
 }
 
