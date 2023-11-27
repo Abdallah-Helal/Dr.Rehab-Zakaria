@@ -60,7 +60,7 @@ body {
   margin-bottom: -15rem;
 }
 
-*/ .fourth ~ hr {
+.fourth ~ hr {
   height: 5rem;
   width: 19%;
   margin: -6.5rem 0;
