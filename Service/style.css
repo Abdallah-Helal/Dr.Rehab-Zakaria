@@ -3,13 +3,13 @@ body {
 }
 .section1 {
   margin-top: 2rem;
-  background-color: #5b2c6f;
+  background-color: white;
 }
 .section1 img {
   width: 100%;
 }
 .section1 div {
-  background: black;
+  background: goldenrod;
   height: 1rem;
   margin-top: -5px;
 }
@@ -17,6 +17,7 @@ body {
   font-size: 4rem;
   text-align: center;
   margin-bottom: 2rem;
+  color: black;
 }
 
 .section1 ul {
@@ -34,10 +35,11 @@ body {
   margin-top: 2rem;
   font-size: 2.5rem;
   font-weight: 400;
-  color: #fff;
+  color: black;
+  background-color: grey;
 }
 .service {
-  background-color: #5dade2;
+  background-color: gray;
   margin-bottom: 1rem;
   color: #fff;
   padding-left: 3rem;
@@ -46,17 +48,19 @@ body {
 .service h2 {
   font-size: 4rem;
   font-weight: 500;
+  color: black;
 }
 .service p {
   font-size: 2.2rem;
   width: 40%;
+  color: black;
 }
 
 .section2 {
   margin-bottom: -15rem;
 }
 
-.fourth ~ hr {
+*/ .fourth ~ hr {
   height: 5rem;
   width: 19%;
   margin: -6.5rem 0;
